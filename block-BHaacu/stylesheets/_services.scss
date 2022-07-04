@@ -1,0 +1,292 @@
+
+body {
+    font-family: 'Archivo', sans-serif;
+    line-height: 1.2;
+  }
+  
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  #toggle, .bars {
+    display: none;
+  }
+
+  .padding {
+    padding: 50px 0;
+}
+.header{
+    background-color:rgb(232, 243, 247) ;
+    position: fixed;
+    padding: 10px 0;
+    width: 100%;
+    z-index: 99;
+    /*z-index: 9990;*/
+    margin-bottom: 60px;
+}
+.brand {
+    
+    float:left;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 30px;
+    color: rgb(246, 11, 11);
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    
+    span{
+        color: black;
+    }
+}
+  .navbar1{
+    float: right;
+    span{
+        font-stretch:ultra-expanded;
+     
+        padding-left: 5px;
+    }
+  
+}
+.brand, .navbar1{
+    display: flex;
+    
+}
+.navbar1 li{
+    list-style: none;
+}
+.navbar1 a {
+ 
+    display: flex;
+    margin-left: 25px;
+    text-transform: capitalize;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(32, 30, 30);
+    
+    
+}
+
+.navbar1 a:hover{
+    color: white;
+    background-color: rgb(246, 11, 11);
+    padding: 10px;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.submenu-1{
+    display: none;
+}
+.navbar1 ul li:hover .submenu-1{
+    display: block;
+    position: absolute;
+    background-color:rgb(232, 243, 247);
+    margin-top: 10px;
+    margin-right: 15px;
+    padding: 5px;
+}
+.navbar1 ul li:hover .submenu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.navbar1 ul li:hover .submenu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(96, 96, 96);
+    background: transparent;
+    border-radius: 0;
+    text-align: center;
+    
+}
+
+.heading{
+
+    background-color: rgb(243, 44, 44);
+    color: white;
+   padding-top: 80px;
+   padding-bottom: 2px;
+   
+}
+.heading h1{
+    font-size: 30px;
+    text-align: center;
+    text-transform:capitalize ;
+ 
+}
+.heading p{
+    font-size: 18px;
+    text-align: center;
+}
+.industry h3{
+    color:red;
+}
+
+.flex-50{
+    p{
+        font-size: 16px;
+        color: gray;
+    }
+}
+.flex-50 img{
+    width: 500px;
+    height: 400px;
+    padding: 40px;
+}
+
+/*products*/
+.card img{
+width: 50px;
+height: 50px;
+}
+/*
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.products{
+    text-align: center;
+    background: #efe8e8;
+    padding: 50px 0;
+    display:flex;
+ 
+  }
+ 
+  .service-card{
+    padding: 2rem 2rem;
+   
+    background-color: white;
+    margin: 2rem 1rem;
+   
+  
+  }
+  .service-card img{
+    width: 50px;
+    height: 50px;
+  }
+  .products h1{
+      padding: 10px 0;
+      font-size: 36px;
+      font-weight: bold;
+      text-align: center;
+  }
+
+    .card-30{
+      flex: 0 1 30%;
+     
+  }
+  
+  /*
+  .card-container{
+ 
+      justify-content: space-between;
+      margin: 10px 10px;
+     
+  }
+ 
+
+  .service-icon{
+    color: #ffffff;
+    background-color: #ea5433;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+   display: flex;
+    font-size: 1.5rem;
+    margin: 1rem auto 1rem auto;
+    margin-top: -3rem;
+    justify-content: center;
+    align-items: center;
+  }*/
+
+.services-container{
+padding: 20px;
+display: inline-block;
+h1{
+    
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+}
+} 
+  .services-container dd,dt{
+        text-align: center;
+        font-size: 18px;
+    }
+
+  .consulting-firm{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+   
+}
+.flex-45-1{
+    display: block;
+    img{
+        width: 60px;
+        height: 60px;
+        margin-left: 200px;
+    }
+    p{
+     font-size: 16px;
+     color: grey;
+     margin:20px;
+    }
+    button{
+        padding: 5px 10px;
+        border: 1px solid red;
+        border-radius: 20px;
+        align-items: center;
+        text-align: center;
+        margin-left: 200px;
+        margin-top: 20px;
+    }
+}
+.flex-45-2{
+    padding: 0px 20px;
+    img{
+        width: 600px;
+        height: 400px;
+    }
+}
+
+.address{
+    background-color: rgb(60, 60, 60);
+    align-items: stretch;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+   
+    color: white;
+}
+.unitech-column{
+    
+    justify-content: space-between;
+    padding: 10px 10px;
+    margin: 0 20px;
+}
+.unitech-column h3{
+font-size: 24px;
+font-weight: bold;
+color: rgb(218, 218, 227) ;
+padding: 10px 0px;
+}
+.unitech-column p{
+    padding: 10px 0;
+    font-size: 17px;
+}
+.footer{
+    text-align: center;
+    background-color: rgb(60, 60, 60);
+    color: rgb(194, 190, 190);
+    padding: 5px;
+}
